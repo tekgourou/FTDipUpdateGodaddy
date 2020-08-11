@@ -3,7 +3,7 @@ import time
 import re
 from godaddypy import Client, Account
 
-ip = 'your CiscoFTD IP'
+FTDip = 'your CiscoFTD IP'
 port = 22
 username = 'FTD admin user'
 password = 'FTD password'
@@ -33,7 +33,7 @@ def godaddyupdate(domain, a_record, IP):
 def get_ip_from_FTD(interface):
     remote_conn_pre=paramiko.SSHClient()
     remote_conn_pre.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    remote_conn_pre.connect(ip, port=port, username=username, password=password)
+    remote_conn_pre.connect(FTDip, port=port, username=username, password=password)
     remote_conn = remote_conn_pre.invoke_shell()
     time.sleep(3)
     remote_conn.send("show interface {}\n".format(interface))
