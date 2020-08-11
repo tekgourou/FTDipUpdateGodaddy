@@ -3,6 +3,9 @@ import time
 import re
 from godaddypy import Client, Account
 
+#Send comments or question to alexandre@argeris.net
+
+
 ip = 'your CiscoFTD IP'
 port = 22
 username = 'FTD admin user'
