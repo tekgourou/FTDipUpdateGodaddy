@@ -1,7 +1,7 @@
 ### This tool let let you automatically update your FTD wan public IP to your A record for a domain registered on Godaddy
 
 This repo contains a Python script to grab the IP from a FTD interface and share it with Godaddy to update a A record.
-![image](./diagram.png)
+![image](./png/diagram.png)
 <br/>
 
 Please contact me at alexandre@argeris.net, if you have any questions or remarks. If you find any bugs, please report them to me, and I will correct them.
