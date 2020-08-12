@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/tekgourou/FTDipUpdateGodaddy)
+
 ### This tool let let you automatically update your FTD wan public IP to your A record for a domain registered on Godaddy
 
 This repo contains a Python script to grab the IP from a FTD interface and share it with Godaddy to update a A record.
